@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,8 +20,22 @@
     "url": "https://github.com/deerawan/design-system-doc-11ty/issues"
   },
   "homepage": "https://github.com/deerawan/design-system-doc-11ty#readme",
+  "dependencies": {
+    "lit": "^2.2.0"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0",
+    "@babel/core": "^7.16.12",
+    "@storybook/addon-actions": "^6.4.17",
+    "@storybook/addon-essentials": "^6.4.17",
+    "@storybook/addon-links": "^6.4.17",
+    "@storybook/builder-webpack5": "^6.4.17",
+    "@storybook/manager-webpack5": "^6.4.17",
+    "@storybook/web-components": "^6.4.17",
+    "babel-loader": "^8.2.3",
+    "storybook": "^6.4.17",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
     "typescript": "^4.5.5"
   }
 }
