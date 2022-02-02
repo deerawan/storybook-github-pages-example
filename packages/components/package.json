@@ -1,0 +1,36 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "design system components",
+  "author": "Budi Irawan <irawan@ischemaview.com>",
+  "homepage": "https://github.com/deerawan/design-system-doc-11ty/tree/main/packages/components#readme",
+  "license": "ISC",
+  "main": "lib/components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://nexus.infrastructure.rapid-sys.com/repository/isv-npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deerawan/design-system-doc-11ty.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/deerawan/design-system-doc-11ty/issues"
+  },
+  "dependencies": {
+    "lit": "^2.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
